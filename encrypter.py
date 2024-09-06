@@ -1,12 +1,12 @@
 import os
 import pyaes
-
+# Versão 06/09/2024
 # Abrir arquivo a ser criptografado
 file_name = 'teste.txt'
 file = open (file_name, 'rb')
 file_data = file.read()
 file.close()
-
+# Alberto Espinoza
 # Remover o arquivo original
 os.remove (file_name)
 
