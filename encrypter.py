@@ -1,6 +1,6 @@
 import os
 import pyaes
-# Versão 06/09/2024
+# Versão 1.0 06/09/2024
 # Abrir arquivo a ser criptografado
 file_name = 'teste.txt'
 file = open (file_name, 'rb')
